@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Global Styles */
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #242525;
+}
+
+/* Typography */
+p {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.logo {
+    border-radius: 50px;
+    width: 40px;
+}
+
+/* Top Bar */
+.top-bar {
+    justify-self: center;
+    width: 95%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 4px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.3s ease;
+}
+
+.link:hover::after {
+    transform: scaleY(1);
+}
+
+/* Tooltip */
+.tooltip {
+    position: absolute;
+    pointer-events: none;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    display: none;
+    white-space: nowrap;
+    z-index: 10;
+    transform: translate(10px, 10px);
+}
+
+/* Main Page */
+.main-page {
+    width: 95%;
+    justify-self: center;
+}
+
+/* Orders Manager */
+.orders-manager {
+    height: 100%;
+    width: 100%;
+}
+
+.order-id {
+    height: 60px;
+    background-color: #252c33;
+    align-content: center;
+}
+
+/* Task */
+.task {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #33383c;
+    width: 100%;
+    justify-self: end;
+}
+
+.task-name {
+    margin-left: 20px;
+    width: 200px;
+}
+
+.task-date {
+    margin-right: 20px;
+}
+
+.task-status {
+    display: flex;
+    height: 100%;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-status[value="0"] {
+    background-color: red;
+}
+
+.task-status[value="1"] {
+    background-color: rgb(230, 191, 14);
+}
+
+.task-status[value="2"] {
+    background-color: rgb(16, 189, 33);
+}
+
+.task-status[value="3"] {
+    background-color: rgb(29, 118, 207);
+}
+
+.hire-status[value="0"]::before {
+    content: "Currently not For Hire.";
+    color: red;
+}
+
+.hire-status[value="1"]::before {
+    content: "Currently For Hire.";
+    color: rgb(7, 233, 7);
+}
+
+/* Tasks Container */
+.tasks {
+    display: flex;
+    flex-direction: column;
+    background-color: #7c7c7d;
+    width: 99%;
+    justify-self: end;
+    height: auto;
+}
+
+/* Down Bar */
+.down-bar {
+    position: relative;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    justify-self: center;
+}
+
+/* No Orders Message */
+.no-orders {
+    font-size: 18px;
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
