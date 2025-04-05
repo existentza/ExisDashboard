@@ -46,29 +46,34 @@ p {
 
 .link {
     position: relative;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
     display: inline-block;
-    padding-right: 4px;
-    font-weight: 600;
+    padding: 5px 0;
     font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    transform: translateY(-2px);
 }
 
 .link::after {
-    content: "";
+    content: '';
     position: absolute;
-    bottom: 0;
     left: 0;
-    width: 100%;
+    bottom: 0;
     height: 2px;
-    background-color: #ffffff;
-    transform: scaleY(0);
-    transform-origin: bottom;
-    transition: transform 0.3s ease;
+    width: 0%;
+    background: linear-gradient(90deg, #ffffff, #bbbbbb);
+    box-shadow: 0 0 5px #ffffff, 0 0 10px rgba(255, 255, 255, 0.6);
+    transition: width 0.4s ease-in-out;
+    border-radius: 4px;
 }
 
 .link:hover::after {
-    transform: scaleY(1);
+    width: 100%;
 }
 
 /* Tooltip */
