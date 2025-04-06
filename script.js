@@ -3,6 +3,9 @@ const tasks_status = document.getElementsByClassName("task-status");
 const tooltip = document.getElementById("tooltip");
 const ordersManager = document.querySelector('.orders-manager'); 
 
+const statusDot = document.getElementById("status-dot");
+const statusType = document.getElementById("status-type");
+const statusManager = document.getElementById("online-status");
 
 if (ordersManager.children.length === 0) {
     const noOrdersMessage = document.createElement('p');
@@ -39,6 +42,21 @@ for (const task of tasks) {
     });
 }
 
+statusManager.addEventListener("mousemove", function(e) {
+    const x = e.clientX;
+    const y = e.clientY;
+   
+    tooltip.innerHTML = "This displays my current Discord Status, if I'm online I'm probably working on your commission!"
+
+    tooltip.style.left = `${x + 2}px`;
+    tooltip.style.top = `${y + 2}px`;
+    tooltip.style.display = 'block';
+});
+
+statusManager.addEventListener('mouseleave', () => {
+    tooltip.style.display = 'none';
+});
+
 for (const task of tasks_status) {
     const status = task.getAttribute("value");
     let statusText = task.querySelector("h3");
@@ -53,6 +71,34 @@ for (const task of tasks_status) {
         statusText.textContent = "Standby";
     }
 }
+
+fetch("https://api.lanyard.rest/v1/users/1170828730013323314")
+    .then(res => res.json())
+    .then(data => {
+      
+      if (data.data.discord_status != "offline") {
+          statusDot.style.backgroundColor = "green";
+          statusType.textContent = "Currently Online";
+      } else {
+          statusDot.style.backgroundColor = "red";
+          statusType.textContent = "Currently Offline";
+      }
+});
+
+setInterval(() => {
+    fetch("https://api.lanyard.rest/v1/users/1170828730013323314")
+    .then(res => res.json())
+    .then(data => {
+      
+      if (data.data.discord_status != "offline") {
+          statusDot.style.backgroundColor = "green";
+          statusType.textContent = "Currently Online";
+      } else {
+          statusDot.style.backgroundColor = "red";
+          statusType.textContent = "Currently Offline";
+      }
+    });
+}, 60000);
 
 /*
 <div class="order">

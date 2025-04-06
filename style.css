@@ -192,3 +192,18 @@ p {
     text-align: center;
     margin-top: 20px;
 }
+
+.online-status {
+    justify-self: start;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#status-dot {
+    margin-left: 10px;
+    border-radius: 100%;
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+}
