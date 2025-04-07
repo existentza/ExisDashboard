@@ -154,6 +154,10 @@ p {
     background-color: rgb(29, 118, 207);
 }
 
+.task-status[value="4"] {
+    background-color: rgb(183, 71, 11);
+}
+
 .hire-status[value="0"]::before {
     content: "Currently not For Hire.";
     color: red;

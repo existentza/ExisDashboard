@@ -69,6 +69,8 @@ for (const task of tasks_status) {
         statusText.textContent = "Done";
     } else if (status == "3") {
         statusText.textContent = "Standby";
+    } else if (status == "4") {
+        statusText.textContent = "Waiting for Payment"
     }
 }
 
