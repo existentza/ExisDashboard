@@ -16,8 +16,8 @@ if (ordersManager.children.length === 0) {
 
 for (const task of tasks) {
     task.addEventListener("mousemove", function(e) {
-        const x = e.clientX;
-        const y = e.clientY;
+        const x = e.pageX;
+        const y = e.pageY;
        
         if (!task.hasAttribute("description")) {
             tooltip.style.display = 'none';
@@ -43,8 +43,8 @@ for (const task of tasks) {
 }
 
 statusManager.addEventListener("mousemove", function(e) {
-    const x = e.clientX;
-    const y = e.clientY;
+    const x = e.pageX;
+    const y = e.pageY;
    
     tooltip.innerHTML = "This displays my current Discord Status, if I'm online I'm probably working on your commission!"
 
