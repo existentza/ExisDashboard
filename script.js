@@ -7,6 +7,20 @@ const statusDot = document.getElementById("status-dot");
 const statusType = document.getElementById("status-type");
 const statusManager = document.getElementById("online-status");
 
+function GetStatusText(status){
+    if (status == "0") {
+        return "Not Started";
+    } else if (status == "1") {
+        return "In Progress";
+    } else if (status == "2") {
+        return "Done";
+    } else if (status == "3") {
+        return "Standby";
+    } else if (status == "4") {
+        return "Waiting for Payment";
+    }
+}
+
 if (ordersManager.children.length === 0) {
     const noOrdersMessage = document.createElement('p');
     noOrdersMessage.textContent = "There is no Commissions at the moment.";
@@ -15,6 +29,11 @@ if (ordersManager.children.length === 0) {
 }
 
 for (const task of tasks) {
+    const taskDescription = task.getAttribute("description");
+    const taskStatus = task.querySelector(".task-status");
+    const taskCompletionBar = taskStatus.querySelector(".completion-bar");
+    const status = taskStatus.getAttribute("value");
+
     task.addEventListener("mousemove", function(e) {
         const x = e.pageX;
         const y = e.pageY;
@@ -23,9 +42,14 @@ for (const task of tasks) {
             tooltip.style.display = 'none';
             return;
         }
-        
-        const taskDescription = task.getAttribute("description");
-        
+
+        const percentage = taskCompletionBar.getAttribute("percentage");
+        const barText = taskCompletionBar.querySelector(".completion-text");
+
+        if (barText && (status !== "3" && status !== "0")) {
+            barText.innerHTML = `${percentage}%`;
+        }
+
         if (taskDescription == "") {
             tooltip.innerHTML = "No description available.";
         } else {
@@ -39,6 +63,10 @@ for (const task of tasks) {
     
     task.addEventListener('mouseleave', () => {
         tooltip.style.display = 'none';
+        const barText = taskCompletionBar.querySelector(".completion-text");
+        if (barText) {
+            barText.innerHTML = GetStatusText(status);
+        }
     });
 }
 
@@ -57,72 +85,57 @@ statusManager.addEventListener('mouseleave', () => {
     tooltip.style.display = 'none';
 });
 
-for (const task of tasks_status) {
-    const status = task.getAttribute("value");
-    let statusText = task.querySelector("h3");
-    
-    if (status == "0") {
-        statusText.textContent = "Not Started";
-    } else if (status == "1") {
-        statusText.textContent = "In Progress";
-    } else if (status == "2") {
-        statusText.textContent = "Done";
-    } else if (status == "3") {
-        statusText.textContent = "Standby";
-    } else if (status == "4") {
-        statusText.textContent = "Waiting for Payment"
+for (const taskStatus of tasks_status) {
+    const status = taskStatus.getAttribute("value");
+    const bar = taskStatus.querySelector(".completion-bar");
+    let percentage = bar.getAttribute("percentage");
+
+    if (status === "3" || status === "0") {
+        percentage = 100
     }
+
+    bar.innerHTML = '';
+
+    const fill = document.createElement('div');
+    fill.className = 'completion-fill';
+    fill.style.width = `${percentage}%`;
+
+    const text = document.createElement('div');
+    text.className = 'completion-text';
+    text.textContent = GetStatusText(status);
+
+    if (status === "0") fill.style.backgroundColor = "red";
+    else if (status === "1") fill.style.backgroundColor = "rgb(230, 191, 14)";
+    else if (status === "2") fill.style.backgroundColor = "rgb(16, 189, 33)";
+    else if (status === "3") fill.style.backgroundColor = "rgb(29, 118, 207)";
+    else if (status === "4") fill.style.backgroundColor = "rgb(183, 71, 11)";
+
+    bar.appendChild(fill);
+    bar.appendChild(text);
 }
 
 fetch("https://api.lanyard.rest/v1/users/1170828730013323314")
     .then(res => res.json())
     .then(data => {
-      
-      if (data.data.discord_status != "offline") {
-          statusDot.style.backgroundColor = "green";
-          statusType.textContent = "Currently Online";
-      } else {
-          statusDot.style.backgroundColor = "red";
-          statusType.textContent = "Currently Offline";
-      }
-});
+        if (data.data.discord_status != "offline") {
+            statusDot.style.backgroundColor = "green";
+            statusType.textContent = "Currently Online";
+        } else {
+            statusDot.style.backgroundColor = "red";
+            statusType.textContent = "Currently Offline";
+        }
+    });
 
 setInterval(() => {
     fetch("https://api.lanyard.rest/v1/users/1170828730013323314")
-    .then(res => res.json())
-    .then(data => {
-      
-      if (data.data.discord_status != "offline") {
-          statusDot.style.backgroundColor = "green";
-          statusType.textContent = "Currently Online";
-      } else {
-          statusDot.style.backgroundColor = "red";
-          statusType.textContent = "Currently Offline";
-      }
-    });
+        .then(res => res.json())
+        .then(data => {
+            if (data.data.discord_status != "offline") {
+                statusDot.style.backgroundColor = "green";
+                statusType.textContent = "Currently Online";
+            } else {
+                statusDot.style.backgroundColor = "red";
+                statusType.textContent = "Currently Offline";
+            }
+        });
 }, 60000);
-
-/*
-<div class="order">
-    <div class="order-id">
-        <h3 style="margin-left: 20px;">
-            Commission ID
-        </h3>
-    </div>
-    <div class="tasks">
-        <div description="" class="task" id="task">
-            <h3 class="task-name">
-                Task Name
-            </h3>
-            <div class="task-status" value="0">
-                <h3></h3>
-            </div>
-            <h3 class="task-date">
-                <span class="date">
-                    YYYY/MM/DD
-                </span>
-            </h3>
-        </div>
-    </div>
-</div>
-*/

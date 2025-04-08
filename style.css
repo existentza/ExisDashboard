@@ -131,31 +131,15 @@ p {
 }
 
 .task-status {
+    position: relative;
     display: flex;
+    flex-direction: column;
     height: 100%;
     width: 25%;
     justify-content: center;
     align-items: center;
-}
-
-.task-status[value="0"] {
-    background-color: red;
-}
-
-.task-status[value="1"] {
-    background-color: rgb(230, 191, 14);
-}
-
-.task-status[value="2"] {
-    background-color: rgb(16, 189, 33);
-}
-
-.task-status[value="3"] {
-    background-color: rgb(29, 118, 207);
-}
-
-.task-status[value="4"] {
-    background-color: rgb(183, 71, 11);
+    background-color: #1f1e1e;
+    overflow: hidden;
 }
 
 .hire-status[value="0"]::before {
@@ -163,9 +147,43 @@ p {
     color: red;
 }
 
+.completion-bar {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.completion-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 0;
+    transition: width 0.3s ease;
+}
+
+.completion-text {
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+
 .hire-status[value="1"]::before {
     content: "Currently For Hire.";
     color: rgb(7, 233, 7);
+}
+
+.task-date {
+    width:  100px;
 }
 
 /* Tasks Container */
