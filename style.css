@@ -216,8 +216,8 @@ p {
 }
 
 .online-status {
-    justify-self: start;
-    margin-left: 60px;
+    justify-self: center;
+    width: 95%;
     display: flex;
     align-items: center;
 }
@@ -228,4 +228,33 @@ p {
     background-color: blue;
     width: 10px;
     height: 10px;
+}
+
+@media (max-width: 480px) {
+    .task-date {
+      display: none;
+    }
+
+    .task-status {
+        width: 40%;
+    }
+
+    .task-name {
+        width: 150px;
+    }
+    
+    .links {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .top-bar {
+        justify-self: center;
+        width: 95%;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
 }

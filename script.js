@@ -32,6 +32,8 @@ for (const task of tasks) {
     const taskDescription = task.getAttribute("description");
     const taskStatus = task.querySelector(".task-status");
     const taskCompletionBar = taskStatus.querySelector(".completion-bar");
+    const taskDate = task.querySelector(".task-date");
+    const actualDate = taskDate.querySelector(".date");
     const status = taskStatus.getAttribute("value");
 
     task.addEventListener("mousemove", function(e) {
@@ -55,6 +57,11 @@ for (const task of tasks) {
         } else {
             tooltip.innerHTML = taskDescription;
         }
+
+        if (window.innerWidth <= 480) {
+            tooltip.innerHTML += `\nDate: ${actualDate.innerHTML}`;
+        }
+        
 
         tooltip.style.left = `${x + 2}px`;
         tooltip.style.top = `${y + 2}px`;
