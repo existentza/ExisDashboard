@@ -14,7 +14,7 @@ const commissionsData = [
                 status: 3,
                 percentage: 0,
                 date: "2025/??/??",
-                description: "\"test\"",
+                description: "Waiting orders...",
             },
         ],
     },
