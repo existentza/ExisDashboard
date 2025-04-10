@@ -11,8 +11,8 @@ const commissionsData = [
             },
             {
                 name: "Spawn Menu",
-                status: 2,
-                percentage: 90,
+                status: 3,
+                percentage: 0,
                 date: "2025/??/??",
                 description: "\"test\"",
             },
