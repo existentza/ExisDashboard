@@ -80,9 +80,9 @@ const commissionsData = [
         tasks: [
             {
                 name: "TEST TASK",
-                percentage: 0,
-                status: 0,
-                description: "TEST",
+                percentage: 20,
+                status: 1,
+                description: "Test Start",
             },
         ],
     },
