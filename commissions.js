@@ -28,13 +28,6 @@ const commissionsData = [
                 date: "2025/04/09",
                 description: "Currently working on it...",
             },
-            {
-                name: "Test",
-                percentage: 0,
-                status: 0,
-                description: "Test",
-                date: "2025/04/10",
-            },
         ],
     },
     {
