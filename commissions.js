@@ -75,8 +75,4 @@ const commissionsData = [
             },
         ],
     },
-    {
-        id: "TEST",
-        tasks: [],
-    },
 ];
