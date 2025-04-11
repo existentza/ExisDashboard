@@ -87,8 +87,8 @@ const commissionsData = [
             },
             {
                 name: "TEST2",
-                percentage: 0,
-                status: 0,
+                percentage: 50,
+                status: 1,
                 description: "TEST ",
                 date: "2025/10/30",
             },
