@@ -24,9 +24,9 @@ const commissionsData = [
             {
                 name: "Intermission",
                 status: 1,
-                percentage: 90,
-                date: "2025/04/09",
-                description: "Almost done...",
+                percentage: 80,
+                date: "2025/04/11",
+                description: "Bug Fixing",
             },
         ],
     },
