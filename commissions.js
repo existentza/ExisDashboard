@@ -75,4 +75,37 @@ const commissionsData = [
             },
         ],
     },
+    {
+        id: "ARMA",
+        tasks: [
+            {
+                name: "Animation Menu",
+                percentage: 0,
+                status: 0,
+                description: "",
+                date: "2025/04/11",
+            },
+            {
+                name: "Bank System",
+                percentage: 0,
+                status: 0,
+                description: "",
+                date: "2025/04/11",
+            },
+            {
+                name: "Paycheck System",
+                percentage: 0,
+                status: 0,
+                description: "",
+                date: "2025/04/11",
+            },
+            {
+                name: "Shop System",
+                percentage: 0,
+                status: 0,
+                description: "",
+                date: "2025/04/11",
+            },
+        ],
+    },
 ];
