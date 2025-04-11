@@ -4,10 +4,10 @@ const commissionsData = [
         tasks: [
             {
                 name: "Weapon System",
-                status: 3,
+                status: 1,
                 percentage: 80,
                 date: "2025/??/??",
-                description: "Waiting for orders...",
+                description: "Adding new features...",
             },
             {
                 name: "Spawn Menu",
