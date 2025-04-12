@@ -1,24 +1,5 @@
 const commissionsData = [
     {
-        id: "#EI",
-        tasks: [
-            {
-                name: "Weapon System",
-                status: 1,
-                percentage: 80,
-                date: "2025/??/??",
-                description: "Adding new features...",
-            },
-            {
-                name: "Spawn Menu",
-                status: 3,
-                percentage: 0,
-                date: "2025/??/??",
-                description: "Waiting orders...",
-            },
-        ],
-    },
-    {
         id: "#78",
         tasks: [
             {
