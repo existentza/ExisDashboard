@@ -189,9 +189,9 @@ const commissionsData = [
         tasks: [
             {
                 name: "Intermission",
-                status: 1,
-                percentage: 80,
-                date: "2025/04/11",
+                status: 4,
+                percentage: 100,
+                date: "2025/04/14",
                 description: "Bug Fixing",
             },
         ],
