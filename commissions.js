@@ -185,18 +185,6 @@ const commissionsData = [
         ],
     },
     {
-        id: "#78",
-        tasks: [
-            {
-                name: "Intermission",
-                status: 2,
-                percentage: 100,
-                date: "2025/04/14",
-                description: "Completed after dead line",
-            },
-        ],
-    },
-    {
         id: "#79",
         tasks: [
             {
