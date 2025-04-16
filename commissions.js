@@ -75,7 +75,7 @@ const commissionsData = [
             {
                 name: "Bank System",
                 percentage: 50,
-                status: 1,
+                status: 3,
                 description: "Done with most of the UIS, working on UI Effects.",
                 date: "2025/??/??",
             },
