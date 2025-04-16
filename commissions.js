@@ -75,7 +75,7 @@ const commissionsData = [
             {
                 name: "Bank System",
                 percentage: 50,
-                status: 1,
+                status: 3,
                 description: "Done with most of the UIS, working on UI Effects.",
                 date: "2025/??/??",
             },
@@ -214,18 +214,6 @@ const commissionsData = [
                 percentage: 0,
                 date: "2025/??/??",
                 description: "",
-            },
-        ],
-    },
-    {
-        id: "#81",
-        tasks: [
-            {
-                name: "Drinks System",
-                status: 1,
-                percentage: 0,
-                date: "2025/04/16",
-                description: "Started now",
             },
         ],
     },
