@@ -144,9 +144,9 @@ const commissionsData = [
             },
             {
                 name: "Announcements System",
-                percentage: 0,
-                status: 0,
-                description: "",
+                percentage: 30,
+                status: 1,
+                description: "UIs almost done",
                 date: "2025/??/??",
             },
         ],
