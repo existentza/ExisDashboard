@@ -184,37 +184,4 @@ const commissionsData = [
             },
         ],
     },
-    {
-        id: "#79",
-        tasks: [
-            {
-                name: "Bar Tender System",
-                status: 3,
-                percentage: 0,
-                date: "2025/??/??",
-                description: "",
-            },
-            {
-                name: "Role Manager System",
-                status: 3,
-                percentage: 0,
-                date: "2025/??/??",
-                description: "",
-            },
-            {
-                name: "Team Doors System",
-                status: 3,
-                percentage: 0,
-                date: "2025/??/??",
-                description: "",
-            },
-            {
-                name: "Game Pass Doors",
-                status: 3,
-                percentage: 0,
-                date: "2025/??/??",
-                description: "",
-            },
-        ],
-    },
 ];
