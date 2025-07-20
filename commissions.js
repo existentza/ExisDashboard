@@ -37,8 +37,8 @@ const commissionsData = [
         tasks: [
             {
                 name: "Gamepass Shop",
-                percentage: 0,
-                status: 1,
+                percentage: 100,
+                status: 2,
                 description: "",
                 date: "",
             },
