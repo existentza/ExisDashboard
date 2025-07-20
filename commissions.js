@@ -44,8 +44,8 @@ const commissionsData = [
             },
             {
                 name: "Emotes Menu",
-                percentage: 0,
-                status: 1,
+                percentage: 2,
+                status: 2,
                 description: "",
                 date: "",
             },
