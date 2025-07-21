@@ -51,8 +51,8 @@ const commissionsData = [
             },
             {
                 name: "Tools Tab",
-                percentage: 0,
-                status: 1,
+                percentage: 2,
+                status: 100,
                 description: "",
                 date: "",
             },
