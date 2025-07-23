@@ -70,6 +70,13 @@ const commissionsData = [
                 description: "",
                 date: "",
             },
+            {
+                name: "WAITING FOR PAYMENT",
+                percentage: 100,
+                status: 4,
+                description: "",
+                date: "",
+            },
         ],
     },
     {
