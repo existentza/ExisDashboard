@@ -26,7 +26,7 @@ const commissionsData = [
             {
                 name: "Check player req",
                 percentage: 0,
-                status: 0,
+                status: 1,
                 description: "",
                 date: "",
             },
