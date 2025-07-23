@@ -58,8 +58,8 @@ const commissionsData = [
             },
             {
                 name: "Ragdoll Command",
-                percentage: 0,
-                status: 1,
+                percentage: 100,
+                status: 2,
                 description: "",
                 date: "",
             },
