@@ -66,7 +66,7 @@ const commissionsData = [
             {
                 name: "Remove Sword Fix",
                 percentage: 0,
-                status: 0,
+                status: 1,
                 description: "",
                 date: "",
             },
