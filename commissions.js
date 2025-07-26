@@ -113,7 +113,7 @@ const commissionsData = [
             {
                 name: "Robbing System",
                 percentage: 0,
-                status: 1,
+                status: 2,
                 description: "",
                 date: "",
             },
