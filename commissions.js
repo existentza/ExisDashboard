@@ -159,8 +159,8 @@ const commissionsData = [
             },
             {
                 name: "Water Tool",
-                percentage: 0,
-                status: 0,
+                percentage: 100,
+                status: 2,
                 description: "",
                 date: "",
             },
