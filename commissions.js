@@ -85,7 +85,7 @@ const commissionsData = [
             {
                 name: "Economy System",
                 percentage: 0,
-                status: 0,
+                status: 1,
                 description: "",
                 date: "",
             },
