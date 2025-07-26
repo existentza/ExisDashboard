@@ -152,8 +152,8 @@ const commissionsData = [
             },
             {
                 name: "Leaderstats Datastore",
-                percentage: 0,
-                status: 0,
+                percentage: 100,
+                status: 2,
                 description: "",
                 date: "",
             },
