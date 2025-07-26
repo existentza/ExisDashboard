@@ -145,7 +145,7 @@ const commissionsData = [
             },
             {
                 name: "Speed Counter",
-                percentage: 0,
+                percentage: 100,
                 status: 2,
                 description: "",
                 date: "",
