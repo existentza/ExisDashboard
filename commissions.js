@@ -187,4 +187,58 @@ const commissionsData = [
             },
         ],
     },
+    {
+        id: "E5",
+        tasks: [
+            {
+                name: "Name-Tag System",
+                percentage: 0,
+                status: 0,
+                description: "",
+                date: "",
+            },
+            {
+                name: "Level System",
+                percentage: 0,
+                status: 0,
+                description: "",
+                date: "",
+            },
+            {
+                name: "Shop System ",
+                percentage: 0,
+                status: 0,
+                description: "",
+                date: "",
+            },
+            {
+                name: "Gamepasses",
+                percentage: 0,
+                status: 0,
+                description: "",
+                date: "",
+            },
+            {
+                name: "Info UI",
+                percentage: 0,
+                status: 0,
+                description: "",
+                date: "",
+            },
+            {
+                name: "Settings UI",
+                percentage: 0,
+                status: 0,
+                description: "",
+                date: "",
+            },
+            {
+                name: "Music UI / Leaderstats / Whitelist Stuff",
+                percentage: 0,
+                status: 0,
+                description: "",
+                date: "",
+            },
+        ],
+    },
 ];
