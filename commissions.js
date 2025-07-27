@@ -171,6 +171,13 @@ const commissionsData = [
                 description: "",
                 date: "",
             },
+            {
+                name: "Reset Confirm",
+                percentage: 0,
+                status: 0,
+                description: "",
+                date: "",
+            },
         ],
     },
 ];
