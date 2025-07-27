@@ -178,6 +178,13 @@ const commissionsData = [
                 description: "",
                 date: "",
             },
+            {
+                name: "Prompt on end",
+                percentage: 0,
+                status: 0,
+                description: "",
+                date: "",
+            },
         ],
     },
 ];
