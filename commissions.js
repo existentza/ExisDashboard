@@ -167,7 +167,7 @@ const commissionsData = [
             {
                 name: "Rejoin Message",
                 percentage: 0,
-                status: 1,
+                status: 2,
                 description: "",
                 date: "",
             },
