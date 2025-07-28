@@ -104,13 +104,6 @@ const commissionsData = [
                 date: "",
             },
             {
-                name: "Quest Giver NPC",
-                percentage: 0,
-                status: 0,
-                description: "",
-                date: "",
-            },
-            {
                 name: "Robbing System",
                 percentage: 100,
                 status: 2,
