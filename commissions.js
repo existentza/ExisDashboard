@@ -173,8 +173,8 @@ const commissionsData = [
             },
             {
                 name: "Reset Confirm",
-                percentage: 0,
-                status: 1,
+                percentage: 100,
+                status: 2,
                 description: "",
                 date: "",
             },
