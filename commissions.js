@@ -17,13 +17,6 @@ const commissionsData = [
                 date: "",
             },
             {
-                name: "Spectate System",
-                percentage: 0,
-                status: 0,
-                description: "",
-                date: "",
-            },
-            {
                 name: "Check player req",
                 percentage: 100,
                 status: 2,
