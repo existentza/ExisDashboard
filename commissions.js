@@ -23,6 +23,13 @@ const commissionsData = [
                 description: "",
                 date: "",
             },
+            {
+                name: "Knife System",
+                percentage: 0,
+                status: 0,
+                description: "",
+                date: "",
+            },
         ],
     },
     {
