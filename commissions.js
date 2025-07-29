@@ -138,13 +138,6 @@ const commissionsData = [
                 description: "",
                 date: "",
             },
-            {
-                name: "Gamepass Shop",
-                percentage: 0,
-                status: 0,
-                description: "",
-                date: "",
-            },
         ],
     },
     {
