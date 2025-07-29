@@ -200,7 +200,7 @@ const commissionsData = [
             {
                 name: "Shop System ",
                 percentage: 0,
-                status: 0,
+                status: 1,
                 description: "",
                 date: "",
             },
