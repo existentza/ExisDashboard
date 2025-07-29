@@ -185,8 +185,8 @@ const commissionsData = [
         tasks: [
             {
                 name: "Name-Tag System",
-                percentage: 0,
-                status: 1,
+                percentage: 100,
+                status: 2,
                 description: "",
                 date: "",
             },
