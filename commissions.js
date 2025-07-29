@@ -80,46 +80,6 @@ const commissionsData = [
         ],
     },
     {
-        id: "E3",
-        tasks: [
-            {
-                name: "Economy System",
-                percentage: 100,
-                status: 2,
-                description: "",
-                date: "",
-            },
-            {
-                name: "Statistics Shower",
-                percentage: 100,
-                status: 2,
-                description: "",
-                date: "",
-            },
-            {
-                name: "Shop System",
-                percentage: 100,
-                status: 2,
-                description: "",
-                date: "",
-            },
-            {
-                name: "Robbing System",
-                percentage: 100,
-                status: 2,
-                description: "",
-                date: "",
-            },
-            {
-                name: "Doors System",
-                percentage: 100,
-                status: 2,
-                description: "",
-                date: "",
-            },
-        ],
-    },
-    {
         id: "E4",
         tasks: [
             {
