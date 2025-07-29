@@ -186,7 +186,7 @@ const commissionsData = [
             {
                 name: "Name-Tag System",
                 percentage: 0,
-                status: 0,
+                status: 1,
                 description: "",
                 date: "",
             },
