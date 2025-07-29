@@ -232,6 +232,13 @@ const commissionsData = [
                 description: "",
                 date: "",
             },
+            {
+                name: "Chat Colour / Tag Colour",
+                percentage: 0,
+                status: 0,
+                description: "",
+                date: "",
+            },
         ],
     },
 ];
