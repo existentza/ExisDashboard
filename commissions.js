@@ -234,8 +234,8 @@ const commissionsData = [
         tasks: [
             {
                 name: "Fix some bugs",
-                percentage: 0,
-                status: 0,
+                percentage: 90,
+                status: 1,
                 description: "",
                 date: "",
             },
