@@ -4,8 +4,8 @@ const commissionsData = [
         tasks: [
             {
                 name: "Add new maps",
-                percentage: 0,
-                status: 0,
+                percentage: 100,
+                status: 2,
                 description: "",
                 date: "",
             },
