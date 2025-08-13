@@ -148,18 +148,6 @@ const commissionsData = [
         ],
     },
     {
-        id: "E6",
-        tasks: [
-            {
-                name: "Fix some bugs",
-                percentage: 90,
-                status: 1,
-                description: "",
-                date: "",
-            },
-        ],
-    },
-    {
         id: "L1",
         tasks: [
             {
