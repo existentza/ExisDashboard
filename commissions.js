@@ -99,49 +99,49 @@ const commissionsData = [
             {
                 "name": "Level System",
                 "percentage": 0,
-                "status": 0,
+                "status": 3,
                 "description": "",
                 "date": ""
             },
             {
-                "name": "Shop System ",
+                "name": "Shop System",
                 "percentage": 30,
-                "status": 1,
+                "status": 3,
                 "description": "Currently working on UIs",
                 "date": ""
             },
             {
                 "name": "Gamepasses",
                 "percentage": 0,
-                "status": 0,
+                "status": 3,
                 "description": "",
                 "date": ""
             },
             {
                 "name": "Info UI",
                 "percentage": 0,
-                "status": 0,
+                "status": 3,
                 "description": "",
                 "date": ""
             },
             {
                 "name": "Settings UI",
                 "percentage": 0,
-                "status": 0,
+                "status": 3,
                 "description": "",
                 "date": ""
             },
             {
                 "name": "Music UI / Leaderstats / Whitelist Stuff",
                 "percentage": 0,
-                "status": 0,
+                "status": 3,
                 "description": "",
                 "date": ""
             },
             {
                 "name": "Chat Colour / Tag Colour",
                 "percentage": 0,
-                "status": 0,
+                "status": 3,
                 "description": "",
                 "date": ""
             }
@@ -153,63 +153,63 @@ const commissionsData = [
             {
                 "name": "Data Saving & Offline",
                 "percentage": 0,
-                "status": 0,
+                "status": 3,
                 "description": "",
                 "date": ""
             },
             {
                 "name": "Machine Placement",
                 "percentage": 0,
-                "status": 0,
+                "status": 3,
                 "description": "",
                 "date": ""
             },
             {
                 "name": "Snack Production & Rarity",
                 "percentage": 0,
-                "status": 0,
+                "status": 3,
                 "description": "",
                 "date": ""
             },
             {
                 "name": "Random Events",
                 "percentage": 0,
-                "status": 0,
+                "status": 3,
                 "description": "",
                 "date": ""
             },
             {
                 "name": "Candy Shop Selling",
                 "percentage": 0,
-                "status": 0,
+                "status": 3,
                 "description": "",
                 "date": ""
             },
             {
                 "name": "Trading System",
                 "percentage": 0,
-                "status": 0,
+                "status": 3,
                 "description": "",
                 "date": ""
             },
             {
                 "name": "Staff/Worker Automation",
                 "percentage": 0,
-                "status": 0,
+                "status": 3,
                 "description": "",
                 "date": ""
             },
             {
                 "name": "Inventory Management",
                 "percentage": 0,
-                "status": 0,
+                "status": 3,
                 "description": "",
                 "date": ""
             },
             {
                 "name": "Anti Exploit",
                 "percentage": 0,
-                "status": 0,
+                "status": 3,
                 "description": "",
                 "date": ""
             }
