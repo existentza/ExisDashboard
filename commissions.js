@@ -38,52 +38,5 @@ const commissionsData = [
                 "date": ""
             }
         ]
-    },
-    {
-        "id": "E2",
-        "tasks": [
-            {
-                "name": "Gamepass Shop",
-                "percentage": 100,
-                "status": 2,
-                "description": "",
-                "date": ""
-            },
-            {
-                "name": "Emotes Menu",
-                "percentage": 100,
-                "status": 2,
-                "description": "",
-                "date": ""
-            },
-            {
-                "name": "Tools Tab",
-                "percentage": 100,
-                "status": 2,
-                "description": "",
-                "date": ""
-            },
-            {
-                "name": "Ragdoll Command",
-                "percentage": 100,
-                "status": 2,
-                "description": "",
-                "date": ""
-            },
-            {
-                "name": "Remove Sword Fix",
-                "percentage": 100,
-                "status": 2,
-                "description": "",
-                "date": ""
-            },
-            {
-                "name": "WAITING FOR PAYMENT",
-                "percentage": 100,
-                "status": 4,
-                "description": "",
-                "date": ""
-            }
-        ]
     }
 ];
