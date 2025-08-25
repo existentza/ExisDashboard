@@ -40,25 +40,6 @@ const commissionsData = [
         ]
     },
     {
-        "id": "A1",
-        "tasks": [
-            {
-                "name": "Anti-Fly",
-                "percentage": 0,
-                "status": 0,
-                "description": "",
-                "date": "2025/08/27"
-            },
-            {
-                "name": "Base Checks (Areas)",
-                "percentage": 0,
-                "status": 0,
-                "description": "",
-                "date": "2025/08/27"
-            }
-        ]
-    },
-    {
         "id": "A2",
         "tasks": [
             {
