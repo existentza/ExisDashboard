@@ -50,5 +50,66 @@ const commissionsData = [
                 "date": "2025/08/26"
             }
         ]
+    },
+    {
+        "id": "A3",
+        "tasks": [
+            {
+                "name": "Round System",
+                "percentage": 0,
+                "status": 0,
+                "description": "",
+                "date": ""
+            },
+            {
+                "name": "Randomizers/Modifiers",
+                "percentage": 0,
+                "status": 0,
+                "description": "",
+                "date": ""
+            },
+            {
+                "name": "Cosmetics",
+                "percentage": 0,
+                "status": 0,
+                "description": "",
+                "date": ""
+            },
+            {
+                "name": "Shop System",
+                "percentage": 0,
+                "status": 0,
+                "description": "",
+                "date": ""
+            },
+            {
+                "name": "Currency System",
+                "percentage": 0,
+                "status": 0,
+                "description": "",
+                "date": ""
+            },
+            {
+                "name": "Datasaving",
+                "percentage": 0,
+                "status": 0,
+                "description": "",
+                "date": ""
+            },
+            {
+                "name": "Leaderboards",
+                "percentage": 0,
+                "status": 0,
+                "description": "",
+                "date": ""
+            },
+            {
+                "name": "Quests",
+                "percentage": 0,
+                "status": 0,
+                "description": "",
+                "date": ""
+            }
+        ]
     }
 ];
