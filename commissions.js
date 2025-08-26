@@ -44,8 +44,8 @@ const commissionsData = [
         "tasks": [
             {
                 "name": "Movement System",
-                "percentage": 0,
-                "status": 0,
+                "percentage": 100,
+                "status": 2,
                 "description": "",
                 "date": "2025/08/26"
             }
