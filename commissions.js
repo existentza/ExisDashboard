@@ -71,15 +71,15 @@ const commissionsData = [
             {
                 "name": "Cosmetics",
                 "percentage": 0,
-                "status": 0,
-                "description": "",
+                "status": 3,
+                "description": "Waiting for assets...",
                 "date": ""
             },
             {
                 "name": "Shop System",
                 "percentage": 0,
-                "status": 0,
-                "description": "",
+                "status": 3,
+                "description": "Waiting for uis...",
                 "date": ""
             },
             {
@@ -106,8 +106,8 @@ const commissionsData = [
             {
                 "name": "Quests",
                 "percentage": 0,
-                "status": 0,
-                "description": "",
+                "status": 3,
+                "description": "Waiting more infos",
                 "date": ""
             },
             {
