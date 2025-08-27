@@ -109,6 +109,13 @@ const commissionsData = [
                 "status": 0,
                 "description": "",
                 "date": ""
+            },
+            {
+                "name": "Inventory System",
+                "percentage": 0,
+                "status": 0,
+                "description": "",
+                "date": ""
             }
         ]
     }
