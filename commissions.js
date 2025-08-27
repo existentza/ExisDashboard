@@ -84,15 +84,15 @@ const commissionsData = [
             },
             {
                 "name": "Currency System",
-                "percentage": 0,
-                "status": 0,
+                "percentage": 100,
+                "status": 2,
                 "description": "",
                 "date": ""
             },
             {
                 "name": "Datasaving",
-                "percentage": 0,
-                "status": 0,
+                "percentage": 100,
+                "status": 2,
                 "description": "",
                 "date": ""
             },
@@ -112,9 +112,9 @@ const commissionsData = [
             },
             {
                 "name": "Inventory System",
-                "percentage": 0,
-                "status": 0,
-                "description": "",
+                "percentage": 70,
+                "status": 1,
+                "description": "Just waiting the UIs to link the system to it.",
                 "date": ""
             }
         ]
