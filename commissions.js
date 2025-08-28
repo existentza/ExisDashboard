@@ -40,18 +40,6 @@ const commissionsData = [
         ]
     },
     {
-        "id": "A2",
-        "tasks": [
-            {
-                "name": "Movement System",
-                "percentage": 100,
-                "status": 2,
-                "description": "",
-                "date": "2025/08/26"
-            }
-        ]
-    },
-    {
         "id": "A3",
         "tasks": [
             {
