@@ -100,9 +100,9 @@ const commissionsData = [
             },
             {
                 "name": "Inventory System",
-                "percentage": 70,
+                "percentage": 90,
                 "status": 1,
-                "description": "Just waiting the UIs to link the system to it.",
+                "description": "Almost done!",
                 "date": ""
             }
         ]
