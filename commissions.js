@@ -25,9 +25,9 @@ const commissionsData = [
             },
             {
                 "name": "Shop System",
-                "percentage": 0,
-                "status": 3,
-                "description": "Waiting for uis...",
+                "percentage": 70,
+                "status": 1,
+                "description": "Waiting for other assets",
                 "date": ""
             },
             {
