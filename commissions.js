@@ -66,5 +66,17 @@ const commissionsData = [
                 "date": ""
             }
         ]
+    },
+    {
+        "id": "S1",
+        "tasks": [
+            {
+                "name": "Rewards UI",
+                "percentage": 0,
+                "status": 0,
+                "description": "To be started.",
+                "date": ""
+            }
+        ]
     }
 ];
