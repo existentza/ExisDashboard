@@ -76,6 +76,13 @@ const commissionsData = [
                 "status": 2,
                 "description": "Done!",
                 "date": ""
+            },
+            {
+                "name": "Leaderboards",
+                "percentage": 0,
+                "status": 0,
+                "description": "",
+                "date": ""
             }
         ]
     }
