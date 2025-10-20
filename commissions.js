@@ -73,7 +73,7 @@ const commissionsData = [
             {
                 "name": "Rewards UI",
                 "percentage": 0,
-                "status": 0,
+                "status": 1,
                 "description": "To be started.",
                 "date": ""
             }
