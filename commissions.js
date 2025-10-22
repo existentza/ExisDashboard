@@ -47,7 +47,7 @@ const commissionsData = [
             {
                 "name": "Leaderboards",
                 "percentage": 0,
-                "status": 0,
+                "status": 1,
                 "description": "",
                 "date": ""
             },
@@ -80,9 +80,9 @@ const commissionsData = [
             {
                 "name": "Leaderboards",
                 "percentage": 0,
-                "status": 0,
+                "status": 1,
                 "description": "",
-                "date": ""
+                "date": "2025/10/24"
             }
         ]
     }
