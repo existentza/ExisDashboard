@@ -46,9 +46,9 @@ const commissionsData = [
             },
             {
                 "name": "Leaderboards",
-                "percentage": 0,
-                "status": 1,
-                "description": "",
+                "percentage": 90,
+                "status": 3,
+                "description": "Waiting for info",
                 "date": ""
             },
             {
@@ -79,10 +79,10 @@ const commissionsData = [
             },
             {
                 "name": "Leaderboards",
-                "percentage": 0,
-                "status": 1,
-                "description": "",
-                "date": "2025/10/24"
+                "percentage": 90,
+                "status": 3,
+                "description": "Waiting for devproducts",
+                "date": "2025/10/26"
             }
         ]
     }
