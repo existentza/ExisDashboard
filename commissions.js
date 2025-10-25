@@ -85,5 +85,17 @@ const commissionsData = [
                 "date": "2025/10/26"
             }
         ]
+    },
+    {
+        "id": "EI",
+        "tasks": [
+            {
+                "name": "Weapon System",
+                "percentage": 80,
+                "status": 1,
+                "description": "Fixing stuff",
+                "date": "2025/11/01"
+            }
+        ]
     }
 ];
