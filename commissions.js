@@ -79,8 +79,8 @@ const commissionsData = [
             },
             {
                 "name": "Leaderboards",
-                "percentage": 90,
-                "status": 3,
+                "percentage": 100,
+                "status": 2,
                 "description": "Waiting for devproducts",
                 "date": "2025/10/26"
             }
