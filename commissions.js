@@ -7,7 +7,7 @@ const commissionsData = [
                 "percentage": 0,
                 "status": 0,
                 "description": "",
-                "date": ""
+                "date": "2025/10/31"
             },
             {
                 "name": "Randomizers/Modifiers",
