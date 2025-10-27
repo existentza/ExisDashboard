@@ -68,25 +68,6 @@ const commissionsData = [
         ]
     },
     {
-        "id": "S1",
-        "tasks": [
-            {
-                "name": "Rewards UI",
-                "percentage": 100,
-                "status": 2,
-                "description": "Done!",
-                "date": ""
-            },
-            {
-                "name": "Leaderboards",
-                "percentage": 100,
-                "status": 2,
-                "description": "Waiting for devproducts",
-                "date": "2025/10/26"
-            }
-        ]
-    },
-    {
         "id": "EI",
         "tasks": [
             {
