@@ -11,8 +11,8 @@ const commissionsData = [
             },
             {
                 "name": "Randomizers/Modifiers",
-                "percentage": 0,
-                "status": 0,
+                "percentage": 40,
+                "status": 1,
                 "description": "",
                 "date": "2025/10/31"
             },
@@ -47,7 +47,7 @@ const commissionsData = [
             {
                 "name": "Leaderboards",
                 "percentage": 90,
-                "status": 3,
+                "status": 1,
                 "description": "Waiting for info",
                 "date": "2025/10/31"
             },
