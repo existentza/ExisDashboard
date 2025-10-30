@@ -18,7 +18,7 @@ const commissionsData = [
             },
             {
                 "name": "Cosmetics",
-                "percentage": 0,
+                "percentage": 100,
                 "status": 2,
                 "description": "Waiting for assets...",
                 "date": "2025/10/31"
