@@ -78,5 +78,38 @@ const commissionsData = [
                 "date": "2025/11/01"
             }
         ]
+    },
+    {
+        "id": "A4",
+        "tasks": [
+            {
+                "name": "Economy System",
+                "percentage": 0,
+                "status": 0,
+                "description": "",
+                "date": ""
+            },
+            {
+                "name": "Shop System",
+                "percentage": 0,
+                "status": 0,
+                "description": "",
+                "date": ""
+            },
+            {
+                "name": "Datasaving",
+                "percentage": 0,
+                "status": 0,
+                "description": "",
+                "date": ""
+            },
+            {
+                "name": "Systems Linking",
+                "percentage": 0,
+                "status": 0,
+                "description": "",
+                "date": ""
+            }
+        ]
     }
 ];
