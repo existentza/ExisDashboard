@@ -84,22 +84,22 @@ const commissionsData = [
         "tasks": [
             {
                 "name": "Economy System",
-                "percentage": 0,
-                "status": 0,
+                "percentage": 100,
+                "status": 2,
                 "description": "",
                 "date": ""
             },
             {
                 "name": "Shop System",
-                "percentage": 0,
-                "status": 0,
+                "percentage": 50,
+                "status": 1,
                 "description": "",
                 "date": ""
             },
             {
                 "name": "Datasaving",
-                "percentage": 0,
-                "status": 0,
+                "percentage": 100,
+                "status": 2,
                 "description": "",
                 "date": ""
             },
@@ -117,6 +117,20 @@ const commissionsData = [
         "tasks": [
             {
                 "name": "First Place",
+                "percentage": 0,
+                "status": 0,
+                "description": "",
+                "date": ""
+            },
+            {
+                "name": "Mute Others",
+                "percentage": 0,
+                "status": 0,
+                "description": "",
+                "date": ""
+            },
+            {
+                "name": "Skip Stage",
                 "percentage": 0,
                 "status": 0,
                 "description": "",
