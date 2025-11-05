@@ -117,8 +117,8 @@ const commissionsData = [
         "tasks": [
             {
                 "name": "First Place",
-                "percentage": 0,
-                "status": 0,
+                "percentage": 100,
+                "status": 2,
                 "description": "",
                 "date": ""
             },
@@ -131,8 +131,8 @@ const commissionsData = [
             },
             {
                 "name": "Skip Stage",
-                "percentage": 0,
-                "status": 0,
+                "percentage": 90,
+                "status": 1,
                 "description": "",
                 "date": ""
             }
