@@ -137,17 +137,5 @@ const commissionsData = [
                 "date": "2025/11/06"
             }
         ]
-    },
-    {
-        "id": "TEST",
-        "tasks": [
-            {
-                "name": "TestTask",
-                "percentage": 100,
-                "status": 2,
-                "description": "",
-                "date": ""
-            }
-        ]
     }
 ];

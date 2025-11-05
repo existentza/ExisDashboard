@@ -1,5 +1,8 @@
 update_commission.py
-update_commission.spec
+CommissionsManager.spec
 dist
 build
-update_commission.exe
+CommissionsManager.exe
+finance.json
+backups
+.idea
