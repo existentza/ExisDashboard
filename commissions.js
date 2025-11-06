@@ -131,8 +131,8 @@ const commissionsData = [
             },
             {
                 "name": "Skip Stage",
-                "percentage": 90,
-                "status": 1,
+                "percentage": 100,
+                "status": 2,
                 "description": "",
                 "date": "2025/11/06"
             }
