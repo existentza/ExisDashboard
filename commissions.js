@@ -72,8 +72,8 @@ const commissionsData = [
         "tasks": [
             {
                 "name": "Weapon System",
-                "percentage": 80,
-                "status": 1,
+                "percentage": 100,
+                "status": 2,
                 "description": "Fixing stuff",
                 "date": "2025/11/09"
             }
@@ -109,32 +109,6 @@ const commissionsData = [
                 "status": 1,
                 "description": "",
                 "date": ""
-            }
-        ]
-    },
-    {
-        "id": "S1",
-        "tasks": [
-            {
-                "name": "First Place",
-                "percentage": 100,
-                "status": 2,
-                "description": "",
-                "date": ""
-            },
-            {
-                "name": "Mute Others",
-                "percentage": 0,
-                "status": 0,
-                "description": "",
-                "date": ""
-            },
-            {
-                "name": "Skip Stage",
-                "percentage": 100,
-                "status": 2,
-                "description": "",
-                "date": "2025/11/06"
             }
         ]
     }
