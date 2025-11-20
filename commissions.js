@@ -66,50 +66,5 @@ const commissionsData = [
                 "date": "2025/10/31"
             }
         ]
-    },
-    {
-        "id": "EI",
-        "tasks": [
-            {
-                "name": "Weapon System",
-                "percentage": 100,
-                "status": 2,
-                "description": "Fixing stuff",
-                "date": "2025/11/09"
-            }
-        ]
-    },
-    {
-        "id": "A4",
-        "tasks": [
-            {
-                "name": "Economy System",
-                "percentage": 100,
-                "status": 2,
-                "description": "",
-                "date": ""
-            },
-            {
-                "name": "Shop System",
-                "percentage": 50,
-                "status": 1,
-                "description": "",
-                "date": ""
-            },
-            {
-                "name": "Datasaving",
-                "percentage": 100,
-                "status": 2,
-                "description": "",
-                "date": ""
-            },
-            {
-                "name": "Systems Linking",
-                "percentage": 50,
-                "status": 1,
-                "description": "",
-                "date": ""
-            }
-        ]
     }
 ];
